@@ -74,7 +74,10 @@ function Advantages() {
 				))}
 			</div>
 			<div>
+				<a href='https://t.me/V12_003' target='_blank' rel='noopener noreferrer'>
 				<Button className='text-white'>Підібрати авто</Button>
+				</a>
+				
 			</div>
 		</section>
 	);

@@ -24,8 +24,8 @@ function App() {
 					<Purchase />
 					<OurTeam/>
 					<Socials />
-					<Reviews/>
-					<Footer/>
+					{/* <Reviews/>
+					<Footer/> */}
 				</main>
 			</div>
 		</NavbarProvider>

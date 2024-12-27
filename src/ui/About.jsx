@@ -27,7 +27,9 @@ function About() {
 
 
 						<div className='flex justify-center'>
+							<a href='https://t.me/V12_003' target='_blank' rel='noopener noreferrer'>
 							<Button className='text-white'>Підібрати авто</Button>
+						</a>
 						</div>
 					</div>
 				</div>

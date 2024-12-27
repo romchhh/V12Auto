@@ -95,15 +95,20 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        background-attachment: fixed;
+        background-attachment: scroll;
         /* Keeps the background image fixed */
     }
     .reviews {
         background-image: url('reviews.jpg');
         background-size: cover;
+        /* Встановлює фон на весь блок */
+        background-position: bottom;
+        /* Фон розташовується знизу */
         background-repeat: no-repeat;
-        background-position: center;
+        /* Не повторюється */
         position: relative;
+        min-height: 100vh;
+        /* Мінімальна висота, щоб блок завжди займав хоча б всю висоту екрану */
     }
     @media (max-width: 1024px) {
         .about::before {

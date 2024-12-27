@@ -40,8 +40,9 @@ function Header() {
 					</nav>
 					<div className='2xl:max-w-[500px] xl:max-w-[400px] xl:w-full flex justify-center text-white'
 					>
-						
+						<a href='https://t.me/V12_003' target='_blank' rel='noopener noreferrer'>
 						<Button>Підібрати авто</Button>
+						</a>
 					</div>
 				</div>
 				<div className='block lg:hidden z-50'>
